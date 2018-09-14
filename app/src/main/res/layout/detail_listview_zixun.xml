@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical">
+
+    <TextView
+        android:id="@+id/tv_title"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:padding="10dp"
+        android:singleLine="true"
+        android:text="标题呵呵哒先生，我买了一个岛，很高兴，给大家发红包。标题呵呵哒先生，我买了一个岛，很高兴，给大家发红包。标题呵呵哒先生，我买了一个岛，很高兴，给大家发红包。"
+        android:textColor="#000"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/tv_des"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:maxLines="2"
+        android:padding="10dp"
+        android:text="标题呵呵哒先生，我买了一个岛，很高兴，给大家发红包。标题呵呵哒先生，我买了一个岛，很高兴，给大家发红包。标题呵呵哒先生，我买了一个岛，很高兴，给大家发红包。标题呵呵哒先生，我买了一个岛，很高兴，给大家发红包。"
+        android:textColor="#aaa"
+        android:textSize="15sp" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp">
+
+        <TextView
+            android:id="@+id/tv_author"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:gravity="center"
+            android:text="hehda"
+            android:textColor="#aaa"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginRight="10dp"
+            android:drawableLeft="@drawable/ic_time"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="2018-9-13"
+            android:textColor="#aaa"
+            android:textSize="10sp" />
+
+        <TextView
+            android:id="@+id/tv_comment"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:drawableLeft="@drawable/ic_comment_count"
+            android:drawablePadding="10dp"
+            android:gravity="center"
+            android:text="22"
+            android:textColor="#aaa"
+            android:textSize="10sp" />
+    </LinearLayout>
+</LinearLayout>
